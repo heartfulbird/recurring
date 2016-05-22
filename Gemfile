@@ -71,5 +71,8 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
 end
 
-gem 'quiet_assets', '~> 1.1', group: :development
+group :development do
+  gem 'quiet_assets', '~> 1.1'
+  gem 'letter_opener', '~> 1.4', '>= 1.4.1'
+end
 

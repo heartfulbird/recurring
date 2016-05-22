@@ -1,7 +1,7 @@
 class GroupsController < ApplicationController
   layout "admin"
   helper_method :sort_column, :sort_direction
-  
+
   def index
     authorize! :read, Group
     @groups = Group.order(sort_column + " " + sort_direction)

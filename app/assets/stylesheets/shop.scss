@@ -1,3 +1,8 @@
+/*
+  We need autocomplete for sign up form with Groups autocomplete
+*= require autocomplete
+*/
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome-sprockets";
@@ -565,4 +570,9 @@ ul#account_links {
   .alert {
     padding: 15px;
   }
+}
+
+
+#account_group_name {
+  margin-bottom: 25px;
 }
